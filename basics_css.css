@@ -1,0 +1,98 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 54%, rgba(0,151,255,1) 100%);
+}
+.back-button {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 200;
+    font-weight: bold;
+    font-size: 14px;
+  }
+#Summary {
+    position: fixed;
+    right: 400px;
+    bottom: 20px;
+    width: auto;
+    height: 125px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000; 
+}
+
+.mapdiv{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.mapdiv path:hover{
+    fill:honeydew;
+}
+
+.Palearctic2{
+    fill:#ff6999;
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Afrotropic2{
+    fill:rgb(255, 45, 87);
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Nearctic2{
+    fill:rgb(137, 255, 74);
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Indo-Malay2{
+    fill:rgb(150, 106, 255);
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Neotropic2{
+    fill:rgb(200, 0, 255);
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Australasia2{
+    fill:rgb(255, 81, 0);
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+.Oceania2{
+    fill:cyan;
+    stroke: honeydew;
+    stroke-width: 1px;
+    transition: fill 3s;
+}
+
+#alien-image{
+    transition: transform 1s ease;
+    position: absolute;
+    width: 125px; 
+    height: auto;
+    z-index: 10;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>A Story About Climate Change</title>
+  <style>
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: #f0f0f0;
+      overflow-x: hidden;
+      background-color: black;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    header {
+      font-family: fantasy;
+      font-size: 2rem;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      background-color: transparent;
+      text-align: center;
+    }
+
+    .video-container {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+    }
+
+    video {
+      width: 80%;
+      margin: 20px;
+    }
+
+    .intro-text {
+      padding: 20px;
+      background-color: transparent;
+      text-align: center;
+    }
+
+    p {
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      font-size: 1.5rem;
+      color: #bdbdbd;
+      padding: 0;
+    }
+
+    .text-and-image {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .text-and-image p {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .image-right {
+      width:300px;
+      height: auto;
+    }
+
+    .button-container {
+      padding:20px;
+      margin:0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .styled-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 30px;
+      font-size: 1rem;
+      color: white;
+      background-color: green;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      width: 500px;
+    }
+
+    .styled-button:hover {
+      background-color: #282828;
+      color: green;
+      transform: translateY(-3px);
+    }
+
+    .map-tutorial {
+      background-color: transparent;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .map-tutorial h2 {
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .map-tutorial ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .map-tutorial li {
+      margin-bottom: 10px;
+      font-size: 1.5rem;
+    }
+
+    .map-tutorial li strong {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  
+  <header>
+    <h1>A Story About Climate Change</h1>
+  </header>
+
+  <div class="video-container">
+    <video autoplay muted loop>
+      <source src="earthrotaion.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <section class="intro-text">
+    <div class="text-and-image">
+      <p><br>
+        Greetings, Earthling! My name is Ang. I have come from the Andromeda Galaxy, around 2.5 million light years
+        away. I have travelled far in search for a planet which my kind and I can use as a new home. I must say that
+        until now, I have found no candidate better than your Earth. Therefore, I have been tracking it for the past few
+        centuries, in terms of your Earth years. The Earth's climate is very complicated, with many factors which
+        influence each other. Yet there has been a steady change in the climate of the Earth, and it has many harmful
+        effects.<br>I have made this website to show you my findings. You can see the climate of the Earth in different
+        regions and how it has been steadily changing over the past few years. The temperature throughout the globe has
+        been on a steady increase, and only Humans can fix the issue. I have found that the levels of Carbon dioxide are
+        a major factor for this increase in temperature. This site allows you to look at the different changes and
+        effects in different regions of the Earth. My hope is that this website will show you the urgency needed to
+        improve the state of the Earth's climate.</p>
+      <img src="aliendance.gif" alt="Alien image" class="image-right">
+    </div>
+  </section>
+  <div class="button-container">
+    <a href="home.html" class="styled-button">Go to Map</a>
+  </div>
+  <section class="map-tutorial">
+    <h2>How to Use the Interactive Map</h2>
+    <ul>
+      <li><strong>Hover:</strong> When you hover over a region, you get a short summary of climate change in that region in the bottom</li>
+      <li><strong>Select a Region:</strong> Click on a region to view detailed climate data and information.</li>
+      <li><strong>Return to Map:</strong> Click on the back button to return to map.</li>
+    </ul>
+  </section>
+</body>
+
+</html>
